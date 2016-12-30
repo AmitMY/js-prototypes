@@ -1,15 +1,15 @@
-# js-helpers
+# js-prototypes
 Important although missing Javascript prototypes
 
 ## How to use?
-- Install: `npm install --save js-helpers`
+- Install: `npm install --save js-prototypes`
 - Include the repo:
-    - ES6: `import JSHelpers from "js-helpers"`
-    - ES5: `var JSHelpers = require("js-helpers")`
+    - ES6: `import JSPrototypes from "js-prototypes"`
+    - ES5: `var JSPrototypes = require("js-prototypes")`
 - Execute the prototypes:
-    - `JSHelpers.all()` will add all prototypes
-    - `JSHelpers.array()` will add all array prototypes
-    - `JSHelpers.object()` will add all object prototypes
+    - `JSPrototypes.all()` will add all prototypes
+    - `JSPrototypes.array()` will add all array prototypes
+    - `JSPrototypes.object()` will add all object prototypes
     
 ## Available prototypes
 Type|Name|Description

@@ -1,6 +1,6 @@
 {
-  "name": "js-helpers",
-  "version": "1.0.0",
+  "name": "js-prototypes",
+  "version": "1.0.1",
   "description": "A JS helpers for arrays & objects",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmitMY/js-helpers.git"
+    "url": "git+https://github.com/AmitMY/js-prototypes.git"
   },
   "keywords": [
-    "js-helpers",
+    "js-prototypes",
     "array",
     "object",
     "object.values"
@@ -19,7 +19,7 @@
   "author": "AmitMY",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AmitMY/js-helpers/issues"
+    "url": "https://github.com/AmitMY/js-prototypes/issues"
   },
-  "homepage": "https://github.com/AmitMY/js-helpers#readme"
+  "homepage": "https://github.com/AmitMY/js-prototypes#readme"
 }

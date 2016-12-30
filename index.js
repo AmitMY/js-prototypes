@@ -1,5 +1,5 @@
-import arrayHelper from "src/array.js";
-import objectHelper from "src/object.js";
+import arrayPrototypes from "src/array.js";
+import objectPrototypes from "src/object.js";
 
 export default class {
     static all() {
@@ -8,10 +8,10 @@ export default class {
     }
 
     static array() {
-        arrayHelper();
+        arrayPrototypes();
     }
     
     static object() {
-        objectHelper();
+        objectPrototypes();
     }
 }
