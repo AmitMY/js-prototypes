@@ -10,10 +10,12 @@ Important although missing Javascript prototypes
     - `JSPrototypes.all()` will add all prototypes
     - `JSPrototypes.array()` will add all array prototypes
     - `JSPrototypes.object()` will add all object prototypes
+    - `JSPrototypes.string()` will add all string prototypes
     
 ## Available prototypes
 Type|Name|Description
 ----|----|-----------
+String|capitalise()|Capitalises a string
 Array|shuffle()|Shuffles an array
 Array|top()|Top of the array, without popping
 Array|unique()|Returns an array of unique values, with no order changes
