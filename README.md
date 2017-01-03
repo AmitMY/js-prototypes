@@ -9,9 +9,7 @@ The object prototypes can be used on all object extensions.
 
 ## How to use?
 - Install: `npm install --save js-prototypes`
-- Include the repo:
-    - ES6: `import JSPrototypes from "js-prototypes"`
-    - Node.js: `var JSPrototypes = require("js-prototypes")`
+- Include the repo: `import JSPrototypes from "js-prototypes"`
 - Execute the prototypes:
     - `JSPrototypes.all()` will add all prototypes
     - `JSPrototypes.object()` will add all object prototypes
