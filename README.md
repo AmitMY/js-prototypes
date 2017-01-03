@@ -25,10 +25,10 @@ The object prototypes can be used on all object extensions.
 ### Object
 Method|Description
 ------|-----------
-size(obj)|How many properties does an object have
 clone(obj)|Value level cloning of non-circular objects
-values(obj|Converts an object to an array of values. Proposed for ES7
 forEach(obj, callback(value, key))|Loops through an object, and executes a callback
+values(obj|Converts an object to an array of values. Proposed for ES7
+size(obj)|How many properties does an object have
 
 ---
 
@@ -45,12 +45,3 @@ unique()|Returns an array of unique values, with no order changes
 Method|Description
 ------|-----------
 capitalise()|Capitalises a string
-
----
-
-### Element
-Method|Description
-------|-----------
-data()|Returns an object with the element's data
-data(key)|Returns the data with given key, or throws an exception
-data(key, value)|Sets element data `key` to be `value`
