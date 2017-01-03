@@ -11,13 +11,14 @@ The object prototypes can be used on all object extensions.
 - Install: `npm install --save js-prototypes`
 - Include the repo:
     - ES6: `import JSPrototypes from "js-prototypes"`
-    - NodeJS: `var JSPrototypes = require("js-prototypes")`
+    - Node.js: `var JSPrototypes = require("js-prototypes")`
 - Execute the prototypes:
     - `JSPrototypes.all()` will add all prototypes
     - `JSPrototypes.object()` will add all object prototypes
     - `JSPrototypes.array()` will add all array prototypes
     - `JSPrototypes.string()` will add all string prototypes
-    
+- If you want to ignore collisions, just call the function with `false` as the only parameter
+
 ## Available prototypes
 
 ---
@@ -38,6 +39,7 @@ Method|Description
 shuffle()|Shuffles an array
 top()|Top of the array, without popping
 unique()|Returns an array of unique values, with no order changes
+equals(array)|Returns true if both arrays are equal, false if they are not
 
 ---
 

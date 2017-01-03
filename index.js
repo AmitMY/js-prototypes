@@ -2,7 +2,7 @@ import arrayPrototypes from "./src/array.js";
 import objectPrototypes from "./src/object.js";
 import stringPrototypes from "./src/string.js";
 
-let warn = false;
+let warn = true;
 
 function testCollision(type, method) {
     if (warn && type.prototype[method])
@@ -10,24 +10,24 @@ function testCollision(type, method) {
 }
 
 export default class {
-    static all(isWarning = false) {
+    static all(isWarning = true) {
         warn = isWarning;
         this.array(testCollision);
         this.object(testCollision);
         this.string(testCollision);
     }
 
-    static array(isWarning = false) {
+    static array(isWarning = true) {
         warn = isWarning;
         arrayPrototypes(testCollision);
     }
 
-    static object(isWarning = false) {
+    static object(isWarning = true) {
         warn = isWarning;
         objectPrototypes(testCollision);
     }
 
-    static string(isWarning = false) {
+    static string(isWarning = true) {
         warn = isWarning;
         stringPrototypes(testCollision);
     }
