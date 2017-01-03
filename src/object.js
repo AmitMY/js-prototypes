@@ -3,21 +3,38 @@ export default function (testCollision) {
     testCollision(Object, methods);
 
     Object.prototype.clone = function (obj) {
+        if (!obj instanceof Object)
+            throw new Error("Assertion error: Object.prototype.clone got '" + typeof obj + "'");
+
         return JSON.parse(JSON.stringify(obj));
     };
 
     Object.prototype.forEach = function (obj, callback) {
+        if (!obj instanceof Object)
+            throw new Error("Assertion error: Object.prototype.values got '" + typeof obj + "'");
+
         for (let key in obj)
             if (obj.hasOwnProperty(key))
                 callback(obj[key], key);
     };
 
     Object.prototype.size = function (obj) {
+        if (!obj instanceof Object)
+            throw new Error("Assertion error: Object.prototype.size got '" + typeof obj + "'");
         return Object.keys(obj).length;
     };
 
 
     Object.prototype.values = function (obj) {
+        if (!obj instanceof Object)
+            throw new Error("Assertion error: Object.prototype.values got '" + typeof obj + "'");
         return Object.keys(obj).map(key => obj[key]);
+    };
+
+    Object.prototype.getName = function (obj) {
+        if (!obj instanceof Object)
+            throw new Error("Assertion error: Object.prototype.getName got '" + typeof obj + "'");
+
+        return obj.constructor.name;
     };
 };
