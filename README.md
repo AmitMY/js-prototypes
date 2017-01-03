@@ -28,7 +28,7 @@ clone(obj)|Value level cloning of non-circular objects
 forEach(obj, callback(value, key))|Loops through an object, and executes a callback
 values(obj|Converts an object to an array of values. Proposed for ES7
 size(obj)|How many properties does an object have
-getName(obj)|Returns the name of the object type
+getObjectName(obj)|Returns the name of the object type
 
 ---
 

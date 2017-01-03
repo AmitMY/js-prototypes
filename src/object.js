@@ -1,5 +1,5 @@
 export default function (testCollision) {
-    let methods = ["clone", "forEach", "size", "values"];
+    let methods = ["clone", "forEach", "size", "values", "getObjectName"];
     testCollision(Object, methods);
 
     Object.prototype.clone = function (obj) {
@@ -31,7 +31,7 @@ export default function (testCollision) {
         return Object.keys(obj).map(key => obj[key]);
     };
 
-    Object.prototype.getName = function (obj) {
+    Object.prototype.getObjectName = function (obj) {
         if (!obj instanceof Object)
             throw new Error("Assertion error: Object.prototype.getName got '" + typeof obj + "'");
 
