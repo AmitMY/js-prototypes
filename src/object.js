@@ -1,15 +1,15 @@
 export default function (testCollision) {
-    let methods = ["clone", "forEach", "size", "values", "getObjectName"];
+    let methods = ["clone", "forEach", "size", "values"];
     testCollision(Object, methods);
 
-    Object.prototype.clone = function (obj) {
+    Object.clone = function (obj) {
         if (!obj instanceof Object)
             throw new Error("Assertion error: Object.prototype.clone got '" + typeof obj + "'");
 
         return JSON.parse(JSON.stringify(obj));
     };
 
-    Object.prototype.forEach = function (obj, callback) {
+    Object.forEach = function (obj, callback) {
         if (!obj instanceof Object)
             throw new Error("Assertion error: Object.prototype.values got '" + typeof obj + "'");
 
@@ -18,23 +18,16 @@ export default function (testCollision) {
                 callback(obj[key], key);
     };
 
-    Object.prototype.size = function (obj) {
+    Object.size = function (obj) {
         if (!obj instanceof Object)
             throw new Error("Assertion error: Object.prototype.size got '" + typeof obj + "'");
         return Object.keys(obj).length;
     };
 
 
-    Object.prototype.values = function (obj) {
+    Object.values = function (obj) {
         if (!obj instanceof Object)
             throw new Error("Assertion error: Object.prototype.values got '" + typeof obj + "'");
         return Object.keys(obj).map(key => obj[key]);
-    };
-
-    Object.prototype.getObjectName = function (obj) {
-        if (!obj instanceof Object)
-            throw new Error("Assertion error: Object.prototype.getName got '" + typeof obj + "'");
-
-        return obj.constructor.name;
     };
 };
