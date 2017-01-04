@@ -1,21 +1,4 @@
-export default function (testCollision) {
-    let methods = ["shuffle", "unique", "top", "equals"];
-    testCollision(Array, methods);
-
-    Array.prototype.shuffle = function () {
-        return this.sort(() => 0.5 - Math.random());
-    };
-
-    Array.prototype.unique = function () {
-        return this.filter((v, i, a) => a.indexOf(v) === i);
-    };
-
-    Array.prototype.top = function () {
-        if (this.length === 0)
-            return null;
-        return this[this.length - 1];
-    };
-
+export default function () {
     Array.prototype.equals = function (array) {
         if (!array || !(array instanceof Array) || this.length != array.length)
             return false;

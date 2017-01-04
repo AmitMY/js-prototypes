@@ -10,12 +10,13 @@ The object prototypes can be used on all object extensions.
 ## How to use?
 - Install: `npm install --save js-prototypes`
 - Include the repo: `import JSPrototypes from "js-prototypes"`
-- Execute the prototypes:
+- Add the prototypes:
     - `JSPrototypes.all()` will add all prototypes
-    - `JSPrototypes.object()` will add all object prototypes
-    - `JSPrototypes.array()` will add all array prototypes
-    - `JSPrototypes.string()` will add all string prototypes
+    - `JSPrototypes.object.all()` will add all object prototypes
+    - `JSPrototypes.array.all()` will add all array prototypes
+    - `JSPrototypes.string.all()` will add all string prototypes
 - If you want to ignore collisions, just call the function with `false` as the only parameter
+- If you want to load a specific prototype (Recommended): `JSPrototypes.type.method()` where type is the type of prototype, and method is the prototype's name.
 
 ## Available prototypes
 
