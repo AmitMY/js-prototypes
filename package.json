@@ -1,25 +1,31 @@
 {
-  "name": "js-prototypes",
-  "version": "1.0.2",
-  "description": "A JS helpers for arrays & objects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AmitMY/js-prototypes.git"
-  },
-  "keywords": [
-    "js-prototypes",
-    "array",
-    "object",
-    "object.values"
-  ],
-  "author": "AmitMY",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AmitMY/js-prototypes/issues"
-  },
-  "homepage": "https://github.com/AmitMY/js-prototypes#readme"
+    "name": "js-prototypes",
+    "version": "1.0.3",
+    "description": "A JS helpers for important JS prototypes",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "ci": "node test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AmitMY/js-prototypes.git"
+    },
+    "keywords": [
+        "js-prototypes",
+        "array",
+        "object",
+        "object.values",
+        "object.size",
+        "string.capitalize",
+    ],
+    "author": "AmitMY",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AmitMY/js-prototypes/issues"
+    },
+    "homepage": "https://github.com/AmitMY/js-prototypes#readme",
+    "devDependencies": {
+        "tape": "^4.6.3"
+    }
 }
