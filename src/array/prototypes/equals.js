@@ -3,15 +3,18 @@ export default function () {
         if (!array || !(array instanceof Array) || this.length != array.length)
             return false;
 
+        let equals = true;
+
         this.forEach((value, i) => {
             if (value instanceof Array && array[i] instanceof Array) {
                 if (!value.equals(array[i]))
-                    return false;
-            } else if (value !== array[i])
-                return false;
+                    equals = false;
+            } else if (value !== array[i]) {
+                equals = false;
+            }
         });
 
-        return true;
+        return equals;
     };
 
     // Hide method from for-in loops

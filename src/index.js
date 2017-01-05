@@ -1,6 +1,6 @@
-import ArrayPrototypes from "./src/array";
-import ObjectPrototypes from "./src/object";
-import StringPrototypes from "./src/string";
+import ArrayPrototypes from "./array";
+import ObjectPrototypes from "./object";
+import StringPrototypes from "./string";
 
 export {ArrayPrototypes, ObjectPrototypes, StringPrototypes};
 

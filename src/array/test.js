@@ -23,11 +23,11 @@ export default function () {
     });
 
     test("Should compare 2 arrays correctly", (assert) => {
-        assert([1, 2, [3, 4]].equals([1, 2, [3, 2]]), false);
-        assert([1, "2", "3"].equals([1, 2, 3]), false);
-        assert([1, "2,3"].equals([1, 2, 3]), false);
-        assert([1, 2, [3, 4]].equals([1, 2, [3, 4]]), true);
-        assert([1, 2, 1, 2].equals([1, 2, 1, 2]), true);
+        assert.equal([1, 2, [3, 4]].equals([1, 2, [3, 2]]), false);
+        assert.equal([1, "2", "3"].equals([1, 2, 3]), false);
+        assert.equal([1, "2,3"].equals([1, 2, 3]), false);
+        assert.equal([1, 2, [3, 4]].equals([1, 2, [3, 4]]), true);
+        assert.equal([1, 2, 1, 2].equals([1, 2, 1, 2]), true);
         assert.end();
     });
 };

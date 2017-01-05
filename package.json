@@ -1,28 +1,31 @@
 {
-    "name": "js-prototypes",
-    "version": "1.1.0",
-    "description": "JS helpers for missing JS prototypes",
-    "main": "index.js",
-    "scripts": {
-        "test": "node test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/AmitMY/js-prototypes.git"
-    },
-    "keywords": [
-        "js-prototypes",
-        "array",
-        "object",
-        "object.values"
-    ],
-    "author": "AmitMY",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/AmitMY/js-prototypes/issues"
-    },
-    "homepage": "https://github.com/AmitMY/js-prototypes#readme"
-    "devDependencies": {
-        "tape": "^4.6.3"
-    }
+  "name": "js-prototypes",
+  "version": "1.1.0",
+  "description": "JS helpers for missing JS prototypes",
+  "main": "src/index.js",
+  "scripts": {
+    "tests:compile": "babel src -d  --out-dir es5  --presets es2015",
+    "test": "npm run tests:compile && node es5/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmitMY/js-prototypes.git"
+  },
+  "keywords": [
+    "js-prototypes",
+    "array",
+    "object",
+    "object.values"
+  ],
+  "author": "AmitMY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmitMY/js-prototypes/issues"
+  },
+  "homepage": "https://github.com/AmitMY/js-prototypes#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "tape": "^4.6.3"
+  }
 }
