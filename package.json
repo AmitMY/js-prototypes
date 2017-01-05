@@ -1,25 +1,28 @@
 {
-  "name": "js-prototypes",
+    "name": "js-prototypes",
     "version": "1.1.0",
     "description": "JS helpers for missing JS prototypes",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AmitMY/js-prototypes.git"
-  },
-  "keywords": [
-    "js-prototypes",
-    "array",
-    "object",
-    "object.values"
-  ],
-  "author": "AmitMY",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AmitMY/js-prototypes/issues"
-  },
-  "homepage": "https://github.com/AmitMY/js-prototypes#readme"
+    "main": "index.js",
+    "scripts": {
+        "test": "node test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AmitMY/js-prototypes.git"
+    },
+    "keywords": [
+        "js-prototypes",
+        "array",
+        "object",
+        "object.values"
+    ],
+    "author": "AmitMY",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AmitMY/js-prototypes/issues"
+    },
+    "homepage": "https://github.com/AmitMY/js-prototypes#readme"
+    "devDependencies": {
+        "tape": "^4.6.3"
+    }
 }
