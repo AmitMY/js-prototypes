@@ -6,7 +6,7 @@ import Size from "./prototypes/size";
 import Values from "./prototypes/values";
 
 export default class ObjectPrototypes {
-    all(isWarning = true) {
+    static all(isWarning = true) {
         this.clone(isWarning);
         this.forEach(isWarning);
         this.size(isWarning);

@@ -1,12 +1,12 @@
 import testCollision from "../testCollision";
 
 import Equals from "./prototypes/equals";
-import Shuffle from "./prototypes/equals";
-import Top from "./prototypes/equals";
-import Unique from "./prototypes/equals";
+import Shuffle from "./prototypes/shuffle";
+import Top from "./prototypes/top";
+import Unique from "./prototypes/unique";
 
 export default class ArrayPrototypes {
-    all(isWarning = true) {
+    static all(isWarning = true) {
         this.equals(isWarning);
         this.shuffle(isWarning);
         this.top(isWarning);

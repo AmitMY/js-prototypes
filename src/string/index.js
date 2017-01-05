@@ -1,9 +1,9 @@
 import testCollision from "../testCollision";
 
-import Capitalize from "./prototypes/equals";
+import Capitalize from "./prototypes/capitalize";
 
 export default class StringPrototypes {
-    all(isWarning = true) {
+    static all(isWarning = true) {
         this.capitalize(isWarning);
     }
 
