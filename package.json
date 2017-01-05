@@ -24,8 +24,8 @@
     },
     "homepage": "https://github.com/AmitMY/js-prototypes#readme",
     "devDependencies": {
-        "babel-cli": "^6.18.0",
-        "babel-preset-es2015": "^6.18.0",
-        "tape": "^4.6.3"
+        "babel-cli": "latest",
+        "babel-preset-es2015": "latest",
+        "tape": "latest"
     }
 }
