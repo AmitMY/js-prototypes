@@ -1,7 +1,7 @@
 {
     "name": "js-prototypes",
     "version": "1.1.2",
-    "description": "JS helpers for missing JS prototypes",
+    "description": "Important although missing Javascript prototypes",
     "main": "src/index.js",
     "scripts": {
         "tests:compile": "babel src -d  --out-dir es5  --presets es2015",
@@ -12,10 +12,20 @@
         "url": "git+https://github.com/AmitMY/js-prototypes.git"
     },
     "keywords": [
+        "prototypes",
         "js-prototypes",
-        "array",
-        "object",
-        "object.values"
+        "object prptptypes",
+        "array prototypes",
+        "string prptptypes",
+        "object.clone",
+        "object.forEach",
+        "object.size",
+        "object.values",
+        "array.equals",
+        "array.shuffle",
+        "array.top",
+        "array.unique",
+        "string.capitalize"
     ],
     "typescript": {
         "definition": "package.d.ts"

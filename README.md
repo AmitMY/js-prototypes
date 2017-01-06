@@ -2,7 +2,10 @@
 Important although missing Javascript prototypes
 
 [![Build Status](https://travis-ci.org/AmitMY/js-prototypes.svg?branch=master)](https://travis-ci.org/AmitMY/js-prototypes)
+[![Coverage Status](https://coveralls.io/repos/github/AmitMY/js-prototypes/badge.svg?branch=master)](https://coveralls.io/github/AmitMY/js-prototypes?branch=master)
 [![npm version](https://badge.fury.io/js/js-prototypes.svg)](https://badge.fury.io/js/js-prototypes)
+[![node dependencies](https://david-dm.org/AmitMY/js-prototypes.svg)](https://david-dm.org/AmitMY/js-prototypes)
+[![Known Vulnerabilities](https://snyk.io/test/github/AmitMY/js-prototypes/badge.svg)](https://snyk.io/test/github/AmitMY/js-prototypes)
 
 # Contribution
 Think there is an important, useful prototype that is missing? Let us know by opening an issue.
