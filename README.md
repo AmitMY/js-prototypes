@@ -3,7 +3,9 @@ Important although missing Javascript prototypes
 
 [![Build Status](https://travis-ci.org/AmitMY/js-prototypes.svg?branch=master)](https://travis-ci.org/AmitMY/js-prototypes)
 [![npm version](https://badge.fury.io/js/js-prototypes.svg)](https://badge.fury.io/js/js-prototypes)
+[![license](https://img.shields.io/npm/l/js-prototypes.svg)](https://github.com/AmitMY/js-prototypes/blob/master/LICENSE)
 [![node dependencies](https://david-dm.org/AmitMY/js-prototypes.svg)](https://david-dm.org/AmitMY/js-prototypes)
+[![node dependencies](https://david-dm.org/AmitMY/js-prototypes/dev-status.svg)](https://david-dm.org/AmitMY/js-prototypes)
 [![Known Vulnerabilities](https://snyk.io/test/github/AmitMY/js-prototypes/badge.svg)](https://snyk.io/test/github/AmitMY/js-prototypes)
 
 # Contribution
