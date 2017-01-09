@@ -1,25 +1,44 @@
 {
-  "name": "js-prototypes",
-  "version": "1.0.2",
-  "description": "A JS helpers for arrays & objects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AmitMY/js-prototypes.git"
-  },
-  "keywords": [
-    "js-prototypes",
-    "array",
-    "object",
-    "object.values"
-  ],
-  "author": "AmitMY",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AmitMY/js-prototypes/issues"
-  },
-  "homepage": "https://github.com/AmitMY/js-prototypes#readme"
+    "name": "js-prototypes",
+    "version": "1.1.2",
+    "description": "Important although missing Javascript prototypes",
+    "main": "src/index.js",
+    "scripts": {
+        "tests:compile": "babel src -d  --out-dir es5  --presets es2015",
+        "test": "npm run tests:compile && node es5/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AmitMY/js-prototypes.git"
+    },
+    "keywords": [
+        "prototypes",
+        "js-prototypes",
+        "object prptptypes",
+        "array prototypes",
+        "string prptptypes",
+        "object.clone",
+        "object.forEach",
+        "object.size",
+        "object.values",
+        "array.equals",
+        "array.shuffle",
+        "array.top",
+        "array.unique",
+        "string.capitalize"
+    ],
+    "typescript": {
+        "definition": "package.d.ts"
+    },
+    "author": "AmitMY",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AmitMY/js-prototypes/issues"
+    },
+    "homepage": "https://github.com/AmitMY/js-prototypes#readme",
+    "devDependencies": {
+        "babel-cli": "latest",
+        "babel-preset-es2015": "latest",
+        "tape": "latest"
+    }
 }
