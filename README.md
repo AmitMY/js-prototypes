@@ -37,6 +37,7 @@ The object prototypes can be used on all object extensions.
 Method|Description
 ------|-----------
 clone(obj)|Value level cloning of non-circular objects
+equals(obj1, obj2)|Checks if value of objects are equal, for non-circular objects
 forEach(obj, callback(value, key))|Loops through an object, and executes a callback
 values(obj)|Converts an object to an array of values. Proposed for ES7
 size(obj)|How many properties does an object have

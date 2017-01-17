@@ -28,6 +28,19 @@ export default function () {
         assert.end();
     });
 
+
+    test("Should check objects value equality", (assert) => {
+        let obj1 = {a: 1, b: {a: 1}};
+        let obj2 = {a: 1, b: {a: 1}};
+        let obj3 = {a: 1};
+
+        assert.equal(Object.equals(obj1, obj2), true);
+        assert.equal(Object.equals(obj1, obj3), false);
+        assert.equal(Object.equals(obj1.b, obj3), true);
+
+        assert.end();
+    });
+
     test("Should get object as values array", (assert) => {
         let obj = {
             a: 1,
