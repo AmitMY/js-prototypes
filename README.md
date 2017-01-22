@@ -57,4 +57,4 @@ equals(array)|Returns true if both arrays are equal, false if they are not
 ### String
 Method|Description
 ------|-----------
-capitalise()|Capitalises a string
+capitalize()|Capitalizes a string

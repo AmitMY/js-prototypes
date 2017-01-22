@@ -1,6 +1,6 @@
 {
     "name": "js-prototypes",
-    "version": "1.1.2",
+    "version": "1.1.4",
     "description": "Important although missing Javascript prototypes",
     "main": "src/index.js",
     "scripts": {
@@ -18,6 +18,7 @@
         "array prototypes",
         "string prptptypes",
         "object.clone",
+        "object.equals",
         "object.forEach",
         "object.size",
         "object.values",
