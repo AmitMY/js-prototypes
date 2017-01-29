@@ -1,8 +1,8 @@
 {
     "name": "js-prototypes",
-    "version": "1.1.5",
+    "version": "1.1.7",
     "description": "Important although missing Javascript prototypes",
-    "main": "src/index.js",
+    "main": "es5/index.js",
     "scripts": {
         "tests:compile": "babel src -d  --out-dir es5  --presets es2015",
         "test": "npm run tests:compile && node es5/test.js"
